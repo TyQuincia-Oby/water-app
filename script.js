@@ -1,0 +1,1 @@
+setProperty("WaterAppTitle", "color", "navy");
