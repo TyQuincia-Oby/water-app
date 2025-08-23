@@ -1,5 +1,6 @@
 setProperty("WaterAppTitle", "color", "navy");
 setProperty("ptag", "background-color", "lightblue");
+setProperty("ptag", "padding", "10px");
 
 onEvent("spanishBtn", "click", function() {
     setText("WaterAppTitle", "Consejos de Conservación de Agua");
