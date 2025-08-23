@@ -9,9 +9,12 @@ onEvent("gBottle", "click", function() {
 onEvent("faucet", "click", function() {
    console.log("Faucet clicked");
     setProperty("gBottle", "background-color", "lightblue");
+    setImageURL("faucet", "drip.png");
+    playSound("water-drip.wav", true)
 });
 
 onEvent("pBottle", "click", function() {
     console.log("Plastic bottle clicked");
-    setProperty("pBottle", "background-color", "red");
+    setImageURL("pBottle","pBottleno.png" )
+    
 });
